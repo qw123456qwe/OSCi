@@ -1,0 +1,25 @@
+{
+  "scopeName": "source.osc",
+  "patterns": [
+    {
+      "name": "keyword.control.osc",
+      "match": "\\b(boshlash|tugat|agar|bo'lsa|bo'lmasa|aks_holda|takror|har|qadamda|to'xtat|keyingisi|qaytar|funktsiya|sinf|meros|yangi|o'chir|tekshir|xato|usla|tut|nihoyat|import|dan_import|global|mahalli|yozuvchi|kutuvchi)\\b"
+    },
+    {
+      "name": "support.function.osc",
+      "match": "\\b(chiqar|kirit|uzunlik|tur|son|haqiqiy|matn|royxat|qo'sh|ayir|kopaytir|bolish|qoldiq|daraja|max_son|min_son|tasodifiy|butun_tasodifiy|vaqt|kut|fayl_yoz|fayl_oqi|mavjudmi|o'chir_fayl|katalog_yarat|katalog_royxat|birlashtir|katta|kichik|almashtir|boshlanadi|tugaydi|bol|birlashtir_royxat|yordam)\\b"
+    },
+    {
+      "name": "string.quoted.double.osc",
+      "match": "\".*?\""
+    },
+    {
+      "name": "constant.numeric.osc",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "comment.line.osc",
+      "match": "#.*$"
+    }
+  ]
+}
